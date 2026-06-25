@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<!-- bean definitions here -->
+    <bean id="address" class="com.tca.bean.Address">
+        <constructor-arg name="city" value="Sangvi" />
+        <constructor-arg name="pincode" value="411027"/>
+    </bean>
+
+    <bean id="customer" class="com.tca.bean.Customer">
+        <constructor-arg name="id" value="101" />
+        <constructor-arg name="firstname" value="omkar"/>
+        <constructor-arg name="address" ref="address"/>
+    </bean>
+
+<!--
+    <bean id="address" class="com.tca.bean.Address">
+        <constructor-arg index="0" value="Sangvi" />
+        <constructor-arg index="1" value="411027"/>
+    </bean>
+
+    <bean id="customer" class="com.tca.bean.Customer">
+        <constructor-arg index="0" value="101" />
+        <constructor-arg index="1" value="omkar"/>
+        <constructor-arg index="2" ref="address"/>
+    </bean>
+-->
+
+
+
+</beans>
