@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40d5ec27-ed7c-4eea-bc4e-15a838040abd" name="Changes" comment="" />
+    <list default="true" id="296f3f13-bace-4b99-8c04-90cf56f3deab" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tca/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tca/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App_08_Autowiring_Example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../App_08_Autowiring_Example/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,16 +22,8 @@
   </component>
   <component name="CopilotPersistence">
     <persistenceIdMap>
-      <entry key="_/Users/omkar/Kali_Linux/Documents/omkar/SpringBoot_with_Microservices_and_AI/SpringFramework/App_08_Autowiring_Example" value="3FwzAzHoaXjC8i0AS2T55aJdezF" />
+      <entry key="_/Users/omkar/Kali_Linux/Documents/omkar/SpringBoot_with_Microservices_and_AI/SpringFramework/App_09_InitializingBean_and_DisposableBean" value="3Fx228UuEHZrz7ml3B0UUHhAOih" />
     </persistenceIdMap>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -43,12 +45,9 @@
     <urls />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
+  "associatedIndex": 6
 }]]></component>
-  <component name="ProjectId" id="3FwzAzHoaXjC8i0AS2T55aJdezF" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="3Fx228UuEHZrz7ml3B0UUHhAOih" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -86,12 +85,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="40d5ec27-ed7c-4eea-bc4e-15a838040abd" name="Changes" comment="" />
-      <created>1783000781409</created>
+      <changelist id="296f3f13-bace-4b99-8c04-90cf56f3deab" name="Changes" comment="" />
+      <created>1783002195163</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1783000781409</updated>
-      <workItem from="1783000782466" duration="1239000" />
+      <updated>1783002195163</updated>
+      <workItem from="1783002196182" duration="830000" />
     </task>
     <servers />
   </component>
