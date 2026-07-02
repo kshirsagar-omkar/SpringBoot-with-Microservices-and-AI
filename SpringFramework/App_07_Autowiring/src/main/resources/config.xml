@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+    <!-- byName : Uses Setter Injection
+                : If the property name and bean name(field) are same, then it will inject the dependency automatically.
+     -->
+
+    <!-- byType : Uses Setter Injection
+                : If the property type and bean type(field) are same, then it will inject the dependency automatically.
+     -->
+
+    <!-- byType : Uses Constructor Injection
+                : If the property type and bean type(field) are same, then it will inject the dependency automatically.
+                : same as byType setter injection, but it will use constructor instead of setter method.
+     -->
+
+
+    <bean id="serviceA" class="com.tca.beans.ServiceA" autowire="byName">
+
+    </bean>
+
+    <bean id="serviceB" class="com.tca.beans.ServiceB">
+
+    </bean>
+
+    <bean id="serviceC" class="com.tca.beans.ServiceC">
+
+    </bean>
+
+
+
+</beans>

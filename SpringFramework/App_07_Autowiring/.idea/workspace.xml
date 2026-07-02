@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e99c54d-c52b-4fad-b592-b9188567bdce" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0a2c402b-191a-4e4e-bd33-22345348ca7b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tca/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tca/beans/ServiceA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tca/beans/ServiceB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tca/beans/ServiceC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tca/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App_06_Circular_Dependency_Problem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../App_06_Circular_Dependency_Problem/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +26,7 @@
   </component>
   <component name="CopilotPersistence">
     <persistenceIdMap>
-      <entry key="_/Users/omkar/Kali_Linux/Documents/omkar/SpringBoot_with_Microservices_and_AI/SpringFramework/App_06_Circular_Dependency_Problem" value="3FwtNBhQCyXYkkHn7WJ9IVt36MX" />
+      <entry key="_/Users/omkar/Kali_Linux/Documents/omkar/SpringBoot_with_Microservices_and_AI/SpringFramework/App_07_Autowiring" value="3Fwvq1pGNhggXSqSkvA68grJnJc" />
     </persistenceIdMap>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -44,9 +56,9 @@
     <urls />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
+  "associatedIndex": 4
 }]]></component>
-  <component name="ProjectId" id="3FwtNBhQCyXYkkHn7WJ9IVt36MX" />
+  <component name="ProjectId" id="3Fwvq1pGNhggXSqSkvA68grJnJc" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -73,6 +85,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -87,12 +102,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7e99c54d-c52b-4fad-b592-b9188567bdce" name="Changes" comment="" />
-      <created>1782997918953</created>
+      <changelist id="0a2c402b-191a-4e4e-bd33-22345348ca7b" name="Changes" comment="" />
+      <created>1782999134268</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1782997918953</updated>
-      <workItem from="1782997919975" duration="1206000" />
+      <updated>1782999134268</updated>
+      <workItem from="1782999135305" duration="1112000" />
     </task>
     <servers />
   </component>
