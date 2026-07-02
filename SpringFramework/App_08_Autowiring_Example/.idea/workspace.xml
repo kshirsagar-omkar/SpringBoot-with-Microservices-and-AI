@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a2c402b-191a-4e4e-bd33-22345348ca7b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="40d5ec27-ed7c-4eea-bc4e-15a838040abd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tca/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tca/beans/ExcelReportCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tca/beans/PdfReportCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tca/beans/ReportCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tca/beans/ReportManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tca/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App_07_Autowiring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../App_07_Autowiring/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,12 +26,13 @@
   </component>
   <component name="CopilotPersistence">
     <persistenceIdMap>
-      <entry key="_/Users/omkar/Kali_Linux/Documents/omkar/SpringBoot_with_Microservices_and_AI/SpringFramework/App_07_Autowiring" value="3Fwvq1pGNhggXSqSkvA68grJnJc" />
+      <entry key="_/Users/omkar/Kali_Linux/Documents/omkar/SpringBoot_with_Microservices_and_AI/SpringFramework/App_08_Autowiring_Example" value="3FwzAzHoaXjC8i0AS2T55aJdezF" />
     </persistenceIdMap>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -44,9 +57,9 @@
     <urls />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
+  "associatedIndex": 5
 }]]></component>
-  <component name="ProjectId" id="3Fwvq1pGNhggXSqSkvA68grJnJc" />
+  <component name="ProjectId" id="3FwzAzHoaXjC8i0AS2T55aJdezF" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -73,9 +86,6 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -90,12 +100,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0a2c402b-191a-4e4e-bd33-22345348ca7b" name="Changes" comment="" />
-      <created>1782999134268</created>
+      <changelist id="40d5ec27-ed7c-4eea-bc4e-15a838040abd" name="Changes" comment="" />
+      <created>1783000781409</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1782999134268</updated>
-      <workItem from="1782999135305" duration="1641000" />
+      <updated>1783000781409</updated>
+      <workItem from="1783000782466" duration="862000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+    <!-- We can't use byName because we are using loosely coupling in ReportManger for ReportCreator
+        Therefore the reportManager bean will not be able to find the reportCreator bean by name.
+        We can use byType or constructor autowiring instead.
+        But we will use byType autowiring because it is more flexible than constructor autowiring.
+        But it is not recommended to use byType autowiring because it can lead to ambiguity if there are multiple beans of the same type.
+        Therefore, We will use primary attribute in the reportCreator impl beans to resolve the ambiguity.
+      -->
+
+
+    <bean id="reportManager" class="com.tca.beans.ReportManager" autowire="byType">
+
+    </bean>
+
+
+
+    <bean id="pdfReportCreator" class="com.tca.beans.PdfReportCreator" >
+
+    </bean>
+
+
+    <bean id="excelReportCreator" class="com.tca.beans.ExcelReportCreator" primary="true">
+
+    </bean>
+
+
+
+</beans>
