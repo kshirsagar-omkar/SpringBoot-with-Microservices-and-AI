@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.tca</groupId>
-  <artifactId>App_02_Constructor_Injection_Primitive_Type</artifactId>
+  <artifactId>App_02_Constructor_Injection_Primitive_and_reference_Type</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
