@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa4ecf6a-ce5a-40bf-b00d-d86be0bd9ee3" name="Changes" comment="" />
+    <list default="true" id="5ff0156c-2feb-4ba6-b261-803c207c1d45" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tca/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tca/util/SingletonType1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tca/util/SingletonType2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tca/util/SingletonType3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tca/util/SingletonType4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tca/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App_11_Singleton_Prototype_Scope/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../App_11_Singleton_Prototype_Scope/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,7 +26,7 @@
   </component>
   <component name="CopilotPersistence">
     <persistenceIdMap>
-      <entry key="_/Users/omkar/Kali_Linux/Documents/omkar/SpringBoot_with_Microservices_and_AI/SpringFramework/App_11_Singleton_Prototype_Scope" value="3H57rVg4CyWYkC4aPT00qH1Rl3B" />
+      <entry key="_/Users/omkar/Kali_Linux/Documents/omkar/SpringBoot_with_Microservices_and_AI/SpringFramework/App_12_Singleton_Design_Pattern" value="3H59ry1lWzryBiQO3YR4hibquuZ" />
     </persistenceIdMap>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -42,9 +56,9 @@
     <urls />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
+  "associatedIndex": 0
 }]]></component>
-  <component name="ProjectId" id="3H57rVg4CyWYkC4aPT00qH1Rl3B" />
+  <component name="ProjectId" id="3H59ry1lWzryBiQO3YR4hibquuZ" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -54,7 +68,6 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.App.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
@@ -75,6 +88,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tca.util" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -85,12 +103,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fa4ecf6a-ce5a-40bf-b00d-d86be0bd9ee3" name="Changes" comment="" />
-      <created>1785146277651</created>
+      <changelist id="5ff0156c-2feb-4ba6-b261-803c207c1d45" name="Changes" comment="" />
+      <created>1785147266609</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1785146277651</updated>
-      <workItem from="1785146278832" duration="984000" />
+      <updated>1785147266609</updated>
+      <workItem from="1785147267668" duration="635000" />
     </task>
     <servers />
   </component>
