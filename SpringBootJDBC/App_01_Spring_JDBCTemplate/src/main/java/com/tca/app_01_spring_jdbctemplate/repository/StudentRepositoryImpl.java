@@ -5,6 +5,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+import java.util.Map;
+
 @Repository
 public class StudentRepositoryImpl implements StudentRepository {
 
@@ -32,7 +35,12 @@ public class StudentRepositoryImpl implements StudentRepository {
     }
 
     @Override
-    public Student findById(int studentRno) {
-        return null;
+    public Map<String, Object> findById(int studentRno) {
+        return jdbcTemplate.queryForMap("SELECT * FROM STUDENT WHERE STUDENTRNO=?", studentRno);
+    }
+
+    @Override
+    public List<Map<String, Object>> findAll() {
+        return jdbcTemplate.queryForList("SELECT * FROM STUDENT");
     }
 }

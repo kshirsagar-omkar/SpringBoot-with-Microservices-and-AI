@@ -7,6 +7,9 @@ import com.tca.app_01_spring_jdbctemplate.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+import java.util.Map;
+
 @Service
 public class StudentServiceImpl implements StudentService {
 
@@ -51,12 +54,23 @@ public class StudentServiceImpl implements StudentService {
     }
 
     @Override
-    public Student findById(int studentRno) {
+    public Map<String, Object> findById(int studentRno) {
         try{
             return studentRepository.findById(studentRno);
         }
         catch (Exception e){
             System.out.println("Exception in StudentServiceImpl.findById() : " + e.getMessage());
+            return null;
+        }
+    }
+
+    @Override
+    public List<Map<String, Object>> findAll() {
+        try{
+            return studentRepository.findAll();
+        }
+        catch (Exception e){
+            System.out.println("Exception in StudentServiceImpl.findAll() : " + e.getMessage());
             return null;
         }
     }
